@@ -9,3 +9,4 @@ TC07	Update OK done=true	PUT /api/tasks/1 {done:true}	200 + done true	Funcional	
 TC08	Update FAIL id inexistente	PUT /api/tasks/9999	404	Negativa	Postman	JSON
 TC09	Delete OK existente	DELETE /api/tasks/1	204	Funcional	Postman	status
 TC10	Delete FAIL inexistente	DELETE /api/tasks/9999	404	Negativa	Postman	JSON
+TC11
